@@ -91,6 +91,10 @@ fieldset{
 .profile{
     background-color: #4A1B8C;
     color: whitesmoke;
+    border: solid 2px black;
+}
+#legendprofil{
+    color: black;
 }
 legend{
     font-weight: bold;
