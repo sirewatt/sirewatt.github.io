@@ -40,6 +40,7 @@ a:hover{
     background-color: #A676A3;
     color: whitesmoke;
     border-radius: 8px;
+    transition: 0.5s; 
 }
 #apropos{
     height: 900px;
@@ -57,6 +58,10 @@ a:hover{
     height: 400px;
    
 }
+.photoprofil img:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 .titreportfolio{
     display: flex;
     width: 500px;
@@ -69,8 +74,11 @@ a:hover{
     font-weight: bold;
     line-height: 70px;
     grid-column: 2/3;
-    grid-row: 2/4;
-    
+    grid-row: 2/4;   
+}
+.titreportfolio:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
 }
 fieldset{
     width: 600px;
@@ -99,8 +107,11 @@ legend{
     text-align: center;
     grid-column: 1/3;
     grid-row: 4/4;
-    margin-left: 100px;
-    
+    margin-left: 100px;    
+}
+.profil:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 .iconeprofil{
     display: flex;
@@ -122,6 +133,10 @@ legend{
     grid-row: 4/4;
     margin-left: 165px;
 }
+.qualite:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 .iconequalite{
     display: flex;
     align-items: center;
@@ -140,8 +155,11 @@ legend{
     color: #2E292E;
     text-align: center;
     grid-column: 3/3;
-    grid-row: 4/4;
-     
+    grid-row: 4/4;     
+}
+.interets:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 .iconeinterets{
     display: flex;
@@ -186,6 +204,10 @@ ul li{
     grid-column: 1/3;
     grid-row: 2/2;  
 }
+#formation:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 .iconework{
     height: 300px;
     width: 400px;
@@ -212,6 +234,10 @@ ul li{
     grid-column: 2/3;
     grid-row: 2/2; 
 }
+#experiences:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 .iconeref{
     height: 300px;
     width: 400px;
@@ -236,7 +262,10 @@ ul li{
     grid-row: 2/2;
     border: solid 2px #4A1B8C; 
 }
-
+#references:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 .mathieu img{
     width: 50px;
     height: 50px;
